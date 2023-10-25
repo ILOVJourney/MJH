@@ -44,5 +44,5 @@ function correctPopup(page, btnId, isGift) {
         btn.style.color = '#F77F63';
         btn.style.border = '2px solid #F77F63';
         window.location.href = page;
-    }, 5000);
+    }, 7000);
 }

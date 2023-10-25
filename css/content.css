@@ -49,7 +49,7 @@ body {
     top: 10px;
     background-color: #F77F63;
     position: relative;
-    transition: width 5s;
+    transition: width 7s;
 }
 
 #firstGo{
@@ -101,7 +101,7 @@ body {
     display: none;
     width: 300px;
     height: auto;
-    margin-top: -130px;
+    margin-top: -180px;
     margin-left: 35px;
 }
 #answerText{
