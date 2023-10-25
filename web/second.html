@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="manifest" href="../content.json">
+    <link rel="stylesheet" type="text/css" href="../css/content.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="KingMJ" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <script src="../js/popup.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="progress-bar" style="background-color: #F77F63;">
+            <img src="../images/gift.png" id="gift">
+        </div>
+        <div class="progress-bar" style="background-color: #F77F63;"></div>
+        <div class="progress-bar">
+            <img src="../images/gift2.png" id="gift">
+        </div>
+        <div class="progress-bar"></div>
+        <div class="progress-bar">
+            <img src="../images/gift3.png" id="gift">
+        </div>
+    </div>
+    <div id="content">
+        <p><button onclick="deletePopup('btn1')" class="btn-link" id="btn1">사과</button></p>
+        <p><button onclick="correctPopup('third.html', 'btn2', false)" class="btn-link" id="btn2">딸기
+            <img src="../images/check.png" id ="check"></button></p>
+        <p><button onclick="deletePopup('btn3')" class="btn-link" id="btn3">복숭아</button></p>
+        <p><button onclick="deletePopup('btn4')" class="btn-link" id="btn4">수박</button></p>
+        <div id ="correct">
+            그렇죠!! 정답은 딸기였습니다.<br>
+            딸기는 남북전쟁에서 딸기 폭탄을 투척한데에서 유래했습니다.<br>
+            그 덕분에 지금 딸기는 맛있게 익었죠. 딱딱 딸기가 진리입니다.
+            <div id="loading"></div>
+        </div>
+        <img src="../images/gift.gif" id="gift-open">
+    </div>
+</body>
+<script>
+</script>
+</html>

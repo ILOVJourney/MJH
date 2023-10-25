@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F9FAF3;
+    text-align: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 11px;
+    width: 80%;
+    font-size: large;
+    background-color: #F9FAF3;
+    color: #F77F63; /* 텍스트 색상 */
+    border: 2px solid #F77F63;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+#header {
+    padding: 10px;
+}
+.question{
+    padding: 20px;
+}
+
+#correct {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F9FAF3;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+#loading {
+    width: 0;
+    height: 4px;
+    top: 10px;
+    background-color: #F77F63;
+    position: relative;
+    transition: width 5s;
+}
+
+#firstGo{
+    width:25%;
+    height: 4px;
+    background-color: #F77F63;
+}
+#qImg{
+    position: relative;
+    width: 90%;
+    height: auto;
+}
+#check{
+    display: none;
+    position: absolute;
+    float:right;
+    width: 30px;
+    right: 15%;
+    height: 30px;
+    margin: -27px 0 0 0;
+}
+.progress-bar {
+    position: relative;
+    float: left;
+    width: 15%; /* 프로그레스 바의 너비 설정 */
+    height: 15px; /* 프로그레스 바의 높이 설정 */
+    background-color: #ccc; /* 기본 배경색 설정 */
+    border-radius: 7px; /* 원형 모양으로 만들기 */
+    margin-left: 4.2%;
+}
+  
+.progress-section {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #F77F63; /* 완료된 섹션의 색상 설정 */ 
+    border-radius: 7px; /* 원형 모양으로 만들기 */
+}
+
+#gift{
+    position: relative;
+    width: auto;
+    height: 110%;
+    margin-top: -2px;
+    z-index: 90;
+}
+
+#gift-open{
+    display: none;
+    width: 300px;
+    height: auto;
+    margin-top: -130px;
+    margin-left: 35px;
+}

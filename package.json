@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "pwacompat": "^2.0.17"
+  }
+}
