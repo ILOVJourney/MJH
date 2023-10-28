@@ -17,19 +17,16 @@
 </head>
 <body>
     <div id="header">
-        <h1>Quiz</h1>
-        <p>실생활 퀴즈</p>
+        <text id="quiz">Quiz</text><br>
+        <text id="title">우리의 이야기</text><br>
+        <img src="images/cloud.png" id="cloud">
     </div>
     <div id="content">
+        <img src = "images/home_love.png" class="home-love">
         <a href="web/first.html" class="btn-link"><img src = "images/start.png" class = 'start' ></a>
     </div>
-    <script>
-        document.addEventListener("DOMContentLoaded", function(){
-            history.pushState(null, null, location.href);
-            window.onpopstate = function (event) {
-                history.forward();
-            };
-        });
-    </script>
+    <div id="footer">
+        <text id="copyright">© 2023, 김명주 all rights reserved</text>
+    </div>
 </body>
 </html>

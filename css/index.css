@@ -1,3 +1,5 @@
+@import url(https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css);
+
 body {
     background-color: #F77F63; /* 분홍색 배경 */
     margin: 0;
@@ -9,6 +11,7 @@ body {
 #header {
     background-color: #F77F63; /* 주황색 헤더 배경 */
     padding: 10px;
+    padding-top: 25%;
 }
 
 h1 {
@@ -28,4 +31,39 @@ h1 {
 .start{
     width: 150px;
     height: auto;
+}
+
+#quiz{
+    font-family: 'NanumSquareRound', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #fff;
+}
+
+#title{
+    font-family: 'NanumSquareRound', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    color: #fff;
+}
+#cloud{
+    position: relative;
+    left:120px;
+}
+
+#footer{
+    position: absolute;
+    bottom: 5px;
+    font-family: 'NanumSquareRound', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    color: #fff;
+    right:5px;
+}
+.home-love{
+    position: relative;
+    width: 140%;
+    display: block; /* 이미지를 가로 중앙 정렬하기 위해 블록 요소로 설정합니다. */
+    left: -20%;
+    top: -30px;
 }
