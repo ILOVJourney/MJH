@@ -1,8 +1,17 @@
-function goBack() {
-    history.pushState(null, null, location.href);
-    history.pushState(null, null, location.href);
-    history.pushState(null, null, location.href);
-    history.pushState(null, null, location.href);
+function skeleton() {
+// 2초 후에 실행되는 함수
+setTimeout(function() {
+    // .skeleton 요소를 찾아서 삭제
+    var skeletonElement = document.querySelector('#skeleton');
+    if (skeletonElement) {
+        skeletonElement.parentNode.removeChild(skeletonElement);
+    }
+
+    // 이미지 표시하기
+    var imgElement = document.getElementById('qImg');
+    imgElement.style.display = 'block';
+}, 1500); // 2000 밀리초 (2초)
+
 }
 function showAlert() {
     alert('오답입니다.');

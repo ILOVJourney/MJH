@@ -12,7 +12,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <script src="../js/popup.js"></script>
 </head>
-<body>
+<body onload="skeleton()">
     <div id="header">
         <div class="progress-bar" style="background-color: #F77F63;">
             <img src="../images/gift.png" id="gift">
@@ -29,6 +29,7 @@
     <div id="content">
         <div class="question">
             <h3>Q. 김명주는 이지현을 얼마만큼 사랑할까요?</h3>
+            <div id="skeleton"></div>
             <img id="qImg" src="../images/question/Q5.png">
         </div>
         <div class="answer">

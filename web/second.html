@@ -12,7 +12,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <script src="../js/popup.js"></script>
 </head>
-<body>
+<body onload="skeleton()">
     <div id="header">
         <div class="progress-bar" style="background-color: #F77F63;">
             <img src="../images/gift.png" id="gift">
@@ -29,6 +29,7 @@
     <div id="content">
         <div class="question">
             <h3>Q. 남자친구 김명주의 전화번호는?</h3>
+            <div id="skeleton"></div>
             <img id="qImg" src="../images/question/Q2.png">
         </div>
         <div class="answer">

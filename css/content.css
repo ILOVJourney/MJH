@@ -59,8 +59,10 @@ body {
 }
 #qImg{
     position: relative;
-    width: 90%;
-    height: auto;
+    width: 320px;
+    height: 320px;
+    display: none;
+    margin: auto;
 }
 #check{
     display: none;
@@ -111,4 +113,21 @@ body {
 #idonText{
     font-size: small;
     text-decoration: underline;
+}
+
+#skeleton {
+    margin: auto;
+    width: 320px;
+    height: 320px;
+    background-color: lightgray; /* 회색 배경 색상 */
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 40%, rgba(255, 255, 255, 0) 80%); /* highlight */
+    background-repeat: repeat-y;
+    background-position: 5px 10px;
+    background-size: 100px 100px;
+    animation: shine 1s infinite;
+}
+@keyframes shine {
+    to {
+        background-position: 100% 10px;
+    }
 }
