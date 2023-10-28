@@ -9,18 +9,28 @@ setTimeout(function() {
     // 이미지 표시하기
     var imgElement = document.getElementById('qImg');
     imgElement.style.display = 'block';
-}, 1500); // 2000 밀리초 (2초)
+}, 1000); // 2000 밀리초 (2초)
 
 }
-function showAlert() {
-    alert('오답입니다.');
-}
 function deletePopup(btnId) {
+    const titles = ["😑😑","😭😭","😤😤"]
+    const contents = ["옹,,? 당황스러운데??", "그거 맞아? 아니 다시 생각해봐ㅜ", "나 말안해!! 선물 안줄거야"];
+    const index = Math.floor(Math.random() * titles.length);
+    
     const btn = document.getElementById(btnId);
     btn.style.background = '#F77F63';
     btn.style.color = '#fff';
     setTimeout(function () {
-        alert('오답입니다.');
+        Swal.fire({
+            title: titles[index],
+            text: contents[index],
+            icon: "error",
+            confirmButtonText: "참는다..",
+            customClass: {
+              confirmButton: "swal-button--error" // "error" 버튼에 내장된 클래스 사용
+            },
+            confirmButtonColor: "#F77F63" // "error" 버튼의 배경색을 직접 지정
+          });
         btn.style.background = '#F9FAF3';
         btn.style.color = '#F77F63';
     }, 50);
