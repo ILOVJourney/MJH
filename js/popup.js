@@ -6,7 +6,6 @@ setTimeout(function() {
     if (skeletonElement) {
         skeletonElement.parentNode.removeChild(skeletonElement);
     }
-
     // 이미지 표시하기
     var imgElement = document.getElementById('qImg');
     imgElement.style.display = 'block';
