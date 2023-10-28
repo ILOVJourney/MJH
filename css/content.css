@@ -109,9 +109,9 @@ h3{
     width: 300px;
     height: auto;
     position: absolute;
-    top: 90%;
+    top: 100%;
     left: 50%;
-    transform: translate(-50%, -90%);
+    transform: translate(-50%, -100%);
 }
 #answerText{
     color: #F77F63;
