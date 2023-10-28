@@ -8,6 +8,7 @@ body {
     text-align: center;
     overflow-y: hidden;
     overflow-x: hidden;
+    overscroll-behavior-x: none;
 }
 h3{
     font-weight: 800;
