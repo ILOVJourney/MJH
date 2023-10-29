@@ -139,3 +139,57 @@ h3{
         background-position: 100% 10px;
     }
 }
+
+#write{
+    position:relative;
+    text-align: left;
+    margin: auto;
+    top:100px;
+    width: 90%;
+}
+#writeTitle{
+    font-weight: 600;
+    font-size: 30px;
+}
+#writeContent{
+    font-weight: 400;
+    font-size: 18px;
+}
+#H{
+    font-weight: 800;
+    font-size: 25px; 
+    color: #EAB9A8
+}
+#B{
+    font-weight: 800;
+    font-size: 25px; 
+    color: #F4CD4A
+}
+#D{
+    font-weight: 800;
+    font-size: 25px; 
+    color: #6E6F33
+}
+#writefoot{
+    position: absolute;
+    bottom: 10%;
+    left: 50%; /* 가운데 정렬을 위해 왼쪽 여백을 50%로 설정 */
+    transform: translateX(-50%); /* 가운데 정렬을 위한 이동 */
+    margin: auto;
+    
+}
+#goHome{
+    width: 100px;
+    height: 100px;
+    background-color: #F77F63;
+    border: 0px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px grey;
+  
+}
+#return{
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin:auto;
+}

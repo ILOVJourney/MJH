@@ -35,7 +35,9 @@ function deletePopup(btnId) {
         btn.style.color = '#F77F63';
     }, 50);
 }
-
+function goHome(){
+    window.location.href = '../index.html';
+}
 function correctPopup(page, btnId, isGift) {
     const correct = document.getElementById('correct');
     const loadingBar = document.getElementById('loading');
